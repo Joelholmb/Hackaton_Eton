@@ -22,10 +22,13 @@ h1 {
 }
 
 h2 {
-    color: rgb(48, 122, 48);
+    color: rgb(72, 137, 72);
 }
 h3 {
-    color: rgb(55, 97, 55);
+    color: rgb(24, 81, 24);
+}
+h4 {
+    color: rgb(40, 55, 40);
 }
 
 strong {
