@@ -31,7 +31,7 @@ strong {
     color: rgb(65, 141, 65);
     font-weight: bold;
 }
-
+/*Här kan man justera knappen som syns på våra namn och tillbakaknappen */
 .back-button {
     display: inline-block;
     padding: 10px 20px;
@@ -48,3 +48,24 @@ strong {
     background-color: #4d944d;
     color: #e0e0e0;
 }
+/*Här kan man justera storlek, färg bakgrund till huvudrubriken på startsidan */
+.site-header {
+    background-color: rgb(65, 141, 65);
+    padding: 20px 0;
+    text-align: center;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.site-header h1 {
+    color: rgb(174, 220, 174);
+    font-family: 'Arial', sans-serif;
+    font-size: 2.5em;
+    margin: 0;
+}
+
