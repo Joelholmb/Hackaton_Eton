@@ -1,0 +1,89 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color:  rgb(186, 214, 186);
+    
+}
+
+header {
+    background-color: rgb(130, 190, 130);
+    color:  rgb(130, 190, 130);
+    padding: 1rem 0;
+    text-align: center;
+}
+.main-heading {
+    color: rgb(65, 141, 65);
+    text-align: center;
+    
+}
+
+
+header h1 {
+    color: rgb(65, 141, 65);
+    margin: 0;
+    text-align: center;
+}
+
+
+h2 {
+    color: rgb(48, 122, 48);
+    text-align: center;
+}
+
+strong {
+    color: rgb(65, 141, 65);
+    font-weight: bold;
+}
+
+section {
+    text-align: center;
+}
+
+.centered-list {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    width: fit-content;
+}
+
+
+/*Här kan man justera knappen som syns på våra namn och tillbakaknappen */
+.back-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 20px 0;
+    background-color: #5eab5e;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+    
+}
+
+.back-button:hover {
+    background-color: #4d944d;
+    color: #e0e0e0;
+}
+/*Här kan man justera storlek, färg bakgrund till huvudrubriken på startsidan */
+.site-header {
+    background-color: rgb(65, 141, 65);
+    padding: 20px 0;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.site-header h1 {
+    color: rgb(174, 220, 174);
+    font-family: 'Arial', sans-serif;
+    font-size: 2.5em;
+    margin: 0;
+}
+
