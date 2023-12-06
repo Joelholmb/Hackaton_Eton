@@ -1,0 +1,32 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color:  rgb(186, 214, 186);
+}
+
+header {
+    background-color: rgb(130, 190, 130);
+    color:  rgb(130, 190, 130);
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    
+    margin: 0;
+}
+
+
+h2 {
+    color: rgb(48, 122, 48);
+}
+h3 {
+    color: rgb(72, 107, 72);
+}
+
+strong {
+    color: rgb(65, 141, 65);
+    font-weight: bold;
+}
