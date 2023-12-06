@@ -12,9 +12,13 @@ header {
     padding: 1rem 0;
     text-align: center;
 }
+.main-heading {
+    color: rgb(65, 141, 65);
+}
+
 
 header h1 {
-    
+    color: rgb(65, 141, 65);
     margin: 0;
 }
 
@@ -26,4 +30,21 @@ h2 {
 strong {
     color: rgb(65, 141, 65);
     font-weight: bold;
+}
+
+.back-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 20px 0;
+    background-color: #5eab5e;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.back-button:hover {
+    background-color: #4d944d;
+    color: #e0e0e0;
 }
