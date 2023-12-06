@@ -51,7 +51,7 @@ strong {
 /*Här kan man justera storlek, färg bakgrund till huvudrubriken på startsidan */
 .site-header {
     background-color: rgb(65, 141, 65);
-    padding: 20px 0;
+    padding: 15px 0;
     text-align: center;
 }
 
@@ -69,3 +69,14 @@ strong {
     margin: 0;
 }
 
+/* Här kan man justera menyn på startsidan.*/
+.button-container ul {
+    list-style: bold;
+    padding: 0;
+    text-align: center;
+}
+
+.button-container li {
+    display: inline;
+    margin-right: 0px;
+}
